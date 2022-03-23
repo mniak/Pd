@@ -1,10 +1,10 @@
-#N struct 1019-object float x float y;
+#N struct 1004-object float x float y;
 #N canvas 1555 72 411 379 12;
 #X obj 110 90 dcanvas;
 #X msg 110 30 reload;
 #X msg 110 60 draw circle \$1;
 #X obj 310 40 vsl 15 128 0 127 0 0 empty empty empty 0 -9 0 10 #fcfcfc
-#000000 #000000 0 1;
+#000000 #000000 3450 1;
 #X msg 210 20 20;
 #X msg 250 20 40;
 #X connect 2 0 0 0;
