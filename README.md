@@ -27,7 +27,6 @@ There are many text books out there, like the famous Bona, Pozzoli and so on.
 
 - Play a root, then many notes and ask for the names.
   - Option to check the answer choosing from a series of buttons
-  - 
 
 
 ### Generation 
