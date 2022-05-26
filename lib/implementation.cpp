@@ -1,8 +1,10 @@
+export module muslib;
+
 import <string>;
 
 using namespace std;
 
-string generateWord() {
+export string generateWord() {
     string str = "Hello [C++] World!";
     return str;
 }
