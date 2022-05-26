@@ -12,6 +12,22 @@ There are many text books out there, like the famous Bona, Pozzoli and so on.
 - [Purr Data](https://agraef.github.io/purr-data/)
 - Library [luaossl](https://github.com/wahern/luaossl)
 
+
+## Building
+### Linux
+
+```
+mkdir build
+cd build
+
+cmake modules
+cmake ..
+
+# For testing
+cmake test-pd
+
+```
+
 ## Sample exercises
 - Generate random single-voice measures and display on the screen. The student should try to play it.
   - Option to choose scale
