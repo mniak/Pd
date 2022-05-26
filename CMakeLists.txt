@@ -12,10 +12,11 @@ project(mniaklib)
 include(pd.build/pd.cmake)
 
 set_pd_external_path(${PROJECT_SOURCE_DIR}/externals/)
-add_pd_external(mniaklib mniak ${PROJECT_SOURCE_DIR}/lib/mniak.cpp)
+add_pd_external(pd_plugin mniak ${PROJECT_SOURCE_DIR}/lib/mniak.cpp)
 
 add_custom_target(modules)
 add_custom_command(TARGET modules PRE_BUILD COMMAND g++ -std=c++20 -fmodules-ts -x c++-system-header string)
+add_dependencies(pd_plugin modules)
 
-add_custom_target(test-pd DEPENDS test-hello.pd)
+add_custom_target(test-pd DEPENDS test-hello.pd pd_plugin)
 add_custom_command(TARGET test-pd PRE_BUILD COMMAND pd ../test-hello.pd)
