@@ -3,5 +3,6 @@ import <string>;
 using namespace std;
 
 string generateWord() {
-    return "Hello [C++] World!";
+    string str = "Hello [C++] World!";
+    return str;
 }

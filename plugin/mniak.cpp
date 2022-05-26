@@ -1,5 +1,7 @@
 #include "m_pd.h"  
-#include "implementation.cpp"
+import <string>;
+
+std::string generateWord();
 
 static t_class *mniak_class;  
  

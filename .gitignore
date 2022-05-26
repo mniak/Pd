@@ -31,3 +31,6 @@ Temporary Items
 **/*.exe
 
 build/
+.vscode/dryrun.log
+.vscode/targets.log
+.vscode/configurationCache.log
