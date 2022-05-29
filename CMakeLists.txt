@@ -5,10 +5,9 @@ cmake_minimum_required(VERSION 3.23)
 # set(CMAKE_OSX_DEPLOYMENT_TARGET 10.4)
 # set(CMAKE_OSX_ARCHITECTURES "i386;x86_64")
 set(CMAKE_CXX_STANDARD 20)
-set(CMAKE_CXX_FLAGS "-fmodules-ts")
 set(PROJECT_SOURCE_DIR "..")
 
-add_subdirectory(lib)
+add_subdirectory(libmuscpp)
 
 include(pd.build/pd.cmake)
 

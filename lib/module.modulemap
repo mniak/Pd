@@ -1,9 +1,0 @@
-module std [system] {
-  module string {
-    textual header "/usr/include/c++/12.1.0/string"
-    textual header "/usr/include/c++/12.1.0/x86_64-pc-linux-gnu/bits/c++config.h"
-    textual header "/usr/include/c++/12.1.0/x86_64-pc-linux-gnu/bits/os_defines.h"
-    textual header "/usr/include/c++/12.1.0/parallel/features.h"
-    export *
-  }
-}
