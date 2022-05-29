@@ -1,7 +1,9 @@
 #include "m_pd.h"  
 import <string>;
 
-std::string generateWord();
+// std::string generateWord();
+
+import muslib;
 
 static t_class *mniak_class;  
  
