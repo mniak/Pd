@@ -1,4 +1,4 @@
-Dynamic Music Practice Textbook Framework
+Interactive Music Practice Textbook Framework
 ==========================================
 
 ## Objectives
