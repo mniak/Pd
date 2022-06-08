@@ -4,12 +4,12 @@
 
 namespace PitchClass
 {
-  static t_class *Class;
-  typedef struct
-  {
-    t_object x_obj;
-  } Object;
-  void Bang(Object *self);
-  void *New(void);
+    typedef struct
+    {
+        t_object x_obj;
+    } Object;
 
+    void *New(void);
+    void Bang(Object *self);
+    void Setup();
 }
