@@ -1,0 +1,6 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make: Entering directory 'c:/Users/andre/Projects/Pd'
+make: Leaving directory 'c:/Users/andre/Projects/Pd'
+ 
+make: *** No targets specified and no makefile found.  Stop.
+
