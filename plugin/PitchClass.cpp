@@ -1,5 +1,7 @@
 #include "PitchClass.h"
 #include <libmus/libmus.h>
+#include <cstdlib>
+#include <cstdio>
 
 namespace PitchClass
 {
@@ -7,7 +9,6 @@ namespace PitchClass
 
     void Setup()
     {
-        post("libmus_setup");
         Class = class_new(
             gensym("PitchClass"),
             (t_newmethod)New,
@@ -19,13 +20,15 @@ namespace PitchClass
 
     void *New(void)
     {
-        post("New");
         auto *self = (Object *)pd_new(Class);
+        self->number = rand();
         return (void *)self;
     }
 
     void Bang(Object *self)
     {
-        post("Hello from PitchClass 7!");
+        char buffer [50];
+        sprintf(buffer, "Hello from PitchClass %d!", self->number);
+        post(buffer);
     }
 }

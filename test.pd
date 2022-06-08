@@ -2,4 +2,8 @@
 #X obj 59 122 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc #000000
 #000000;
 #X obj 59 154 PitchClass;
+#X obj 147 122 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
+#000000 #000000;
+#X obj 147 154 PitchClass;
 #X connect 0 0 1 0;
+#X connect 2 0 3 0;

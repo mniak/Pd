@@ -6,7 +6,8 @@ namespace PitchClass
 {
     typedef struct
     {
-        t_object x_obj;
+        t_object internal;
+        int number;
     } Object;
 
     void *New(void);
