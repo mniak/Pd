@@ -13,7 +13,7 @@ target_sources(pdplugin PRIVATE
 "PitchClass.cpp"
 "mytgl.c"
 )
-
+target_link_libraries(pdplugin libmus)
 
 add_custom_target(test-pd DEPENDS pdplugin "${PROJECT_SOURCE_DIR}/test.pd")
 add_custom_command(TARGET test-pd PRE_BUILD COMMAND pd "${PROJECT_SOURCE_DIR}/test.pd")

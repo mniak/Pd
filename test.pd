@@ -5,6 +5,11 @@
 #X obj 147 122 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
 #000000 #000000;
 #X obj 147 154 PitchClass;
-#X obj 62 223 mytgl;
+#X obj 59 200 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#000000;
+#X obj 147 203 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
+#000000 #000000;
 #X connect 0 0 1 0;
+#X connect 1 0 4 0;
 #X connect 2 0 3 0;
+#X connect 3 0 5 0;

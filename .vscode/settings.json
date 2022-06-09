@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.pd_lua": "lua",
+        "dot_bashrc": "shellscript",
+        "cstdint": "c"
+    }
+}
